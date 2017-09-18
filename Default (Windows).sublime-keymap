@@ -1,0 +1,80 @@
+[
+  {
+    "keys": ["ctrl+shift+o"],
+    "command": "open_files"
+  },
+  {
+    "keys": ["ctrl+shift+alt+o"],
+    "command": "open_files",
+    "args": {"ignore": false}
+  },
+  {
+    "keys": ["ctrl+alt+b"],
+    "command": "open_files",
+    "args": {"list_type": "bookmarks"}
+  },
+  {
+    "keys": ["ctrl+alt+h"],
+    "command": "open_files",
+    "args": {"list_type": "file_history"}
+  },
+  {
+    "keys": ["ctrl+shift+alt+h"],
+    "command": "open_files",
+    "args": {"list_type": "folder_history"}
+  },
+  {
+    "keys": ["right"],
+    "command": "open_files",
+    "args": {"key": "right"},
+    "context": [{"key": "open_files_choose_menu"}]
+  },
+  {
+    "keys": ["left"],
+    "command": "open_files",
+    "args": {"key": "left"},
+    "context": [{"key": "open_files_backward"}]
+  },
+  {
+    "keys": ["left"],
+    "command": "open_files",
+    "args": {"key": "left", "list_type": "bookmarks"},
+    "context": [{"key": "open_bookmarks_backward"}]
+  },
+  {
+    "keys": ["left"],
+    "command": "open_files",
+    "args": {"key": "left", "list_type": "file_history"},
+    "context": [{"key": "open_file_history_backward"}]
+  },
+  {
+    "keys": ["left"],
+    "command": "open_files",
+    "args": {"key": "left", "list_type": "folder_history"},
+    "context": [{"key": "open_folder_history_backward"}]
+  },
+  {
+    "keys": ["right"],
+    "command": "open_files",
+    "args": {"key": "right", "list_type": "bookmarks"},
+    "context": [{"key": "open_bookmarks_choose_menu"}]
+  },
+  {
+    "keys": ["right"],
+    "command": "open_files",
+    "args": {"key": "right", "list_type": "file_history"},
+    "context": [{"key": "open_file_history_choose_menu"}]
+  },
+    {
+    "keys": ["right"],
+    "command": "open_files",
+    "args": {"key": "right", "list_type": "folder_history"},
+    "context": [{"key": "open_folder_history_choose_menu"}]
+  },
+  {
+    "keys": ["tab"],
+    "command": "open_files",
+    "args": {"ignore": false, "key": "tab"},
+    "context": [{"key": "open_files_show_hidden_files"}]
+  }
+]

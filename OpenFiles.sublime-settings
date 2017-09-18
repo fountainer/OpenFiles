@@ -1,0 +1,10 @@
+{
+  "ignored_files_exts": [
+    ".pdf", ".exe", ".synctex.gz", ".aux", ".bbl", ".blg",".log"],
+  "bookmarks": [
+    "D:/Projects/R code",
+    "D:/Projects/LaTex/Article",
+    "OpenFiles"
+  ],
+  "max_history": 15
+}
